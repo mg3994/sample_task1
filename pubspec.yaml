@@ -59,7 +59,10 @@ dependencies:
   change_app_package_name: ^1.4.0
   webview_flutter: ^4.8.0
   dotted_border: ^2.1.0
-  dash_bubble: ^2.0.0
+  dash_bubble:
+    git:
+      url: https://github.com/dhiaCodes/dash_bubble.git
+      ref: bubble-cannot-start-android14
   workmanager: ^0.5.2
   flutter_inappwebview: ^6.1.5
   path: ^1.9.0
