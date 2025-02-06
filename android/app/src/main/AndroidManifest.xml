@@ -19,7 +19,7 @@
 
 
     <application
-        android:label="product name"
+        android:label="Driver"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true">
