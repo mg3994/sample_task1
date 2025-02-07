@@ -18,8 +18,9 @@ class AppConstants {
   static String firebaseProjectId =
       (Platform.isAndroid) ? "dropping-app-2025" : "ios firebase project id";
 
-  static String mapKey =
-      (Platform.isAndroid) ? "android map key" : 'ios map key';
+  static String mapKey = (Platform.isAndroid)
+      ? "AIzaSyAoi9wM6k_nXs7W6-5CLv3MuoEDuWoiRcA"
+      : 'ios map key';
   static const String privacyPolicy = 'your privacy policy url';
   static const String termsCondition = 'your terms and condition url';
 
@@ -30,8 +31,7 @@ class AppConstants {
     LocaleLanguageList(name: 'Spanish', lang: 'es')
   ];
   static String packageName = 'com.droppingride.driver';
-  static String signKey =
-      '91:DE:F4:F1:B0:57:E0:D3:1F:6E:B3:09:A1:FA:65:86:82:A7:DC:93';
+  static String signKey = '91def4f1b057e0d31f6eb309a1fa658682a7dc93';
   double headerSize = 18.0;
   double subHeaderSize = 16.0;
   double buttonTextSize = 20.0;
